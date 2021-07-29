@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box, Container, Image, Text } from 'theme-ui';
+import { jsx as _jsx, Box, Container, Image, Text } from 'theme-ui';
 import { Link } from 'components/link';
 import data from './footer.data';
 import FooterLogo from 'assets/logo.svg';

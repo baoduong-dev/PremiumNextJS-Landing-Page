@@ -7,7 +7,7 @@ import Image from 'next/image'
 import SEO from '../components/seo';
 import Layout from '../components/layout';
 import Banner from '../sections/banner';
-// import KeyFeature from '../sections/key-feature';
+import KeyFeature from '../sections/key-feature';
 // import ServiceSection from '../sections/service-section';
 // import Feature from '../sections/feature';
 // import CoreFeature from '../sections/core-feature';
@@ -22,8 +22,8 @@ export default function Home() {
         <Layout>
           <SEO title="NextJS Landing Page" />
           <Banner />
-          {/* <KeyFeature />
-          <ServiceSection />
+          <KeyFeature />
+          {/* <ServiceSection />
           <Feature />
           <CoreFeature />
           <WorkFlow />

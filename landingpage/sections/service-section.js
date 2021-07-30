@@ -6,7 +6,7 @@ import TextFeature from '../components/text-feature';
 import { IoIosPlay } from 'react-icons/io';
 
 // import ServiceThumb from '../public/assets/service-thumb.png';
-import shapePattern from '../public/assets/shape-pattern1.png';
+// import shapePattern from '../public/assets/shape-pattern1.png';
 
 import Smart from '../public/assets/services/smart.svg';
 import Secure from '../public/assets/services/secure.svg';
@@ -55,7 +55,7 @@ export default function ServiceSection() {
             </span>
           </Button>
           <Box sx={styles.shapeBox}>
-            <Image src={shapePattern} alt="shape" />
+            <Image src='/assets/shape-pattern1.png' alt="shape" />
           </Box>
         </Box>
         <Box sx={styles.contentBox}>
